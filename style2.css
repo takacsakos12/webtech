@@ -1,0 +1,86 @@
+
+  /* Alapértelmezett stílusok */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    width: 80%;
+    margin: 0 auto;
+  }
+  
+  /* Fejléc */
+  .header {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .header a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  .menu {
+    display: flex;
+    justify-content: center;
+    margin: 10px 0;
+  }
+  
+  .menu-button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    margin: 0 5px;
+  }
+  
+  .menu-button:hover {
+    background-color: #45a049;
+  }
+  
+  .content {
+    margin: 20px 0;
+  }
+  
+  /* Űrlap */
+  #datumvalaszto {
+    text-align: center;
+  }
+  
+  label {
+    display: inline-block;
+    margin-bottom: 5px;
+  }
+  
+  #dateInput {
+    padding: 8px;
+  }
+  
+  button {
+    background-color: #008CBA;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  button:hover {
+    background-color: #005266;
+  }
+  
+  
+  #eventsList {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  #eventsList li {
+    margin-bottom: 10px;
+  }
+  

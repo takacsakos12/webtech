@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eventkereső</title>
+    <link rel="stylesheet" href="style2.css">
+    
+</head>
+<body> 
+    <div class="container">
+        <div class="header">
+            <a href="webtechindex.html" style="text-decoration: none; color: inherit;"><h1>MMA Magyarország</h1></a>
+        </div>
+        
+        
+    <div class="menu">
+            
+          <button id="bajnokok" class="menu-button">Bajnokok</button>
+          <button id="webshop" class="menu-button">Webshop</button>
+          <button id="eventkereso" class="menu-button">Eventkereső</button>
+    </div>
+    
+    <div class="content"><h2>Válassz egy dátumot:</h2></div>
+
+  <form id="datumvalaszto">
+    <label for="dateInput">Dátum:</label>
+    <input type="date" id="dateInput" name="dateInput">
+    <button type="button" onclick="showSelectedEvents()">Kiválasztott dátum eseményei</button>
+  </form>
+
+  <h3>Események:</h3>
+  <ul id="eventsList"></ul>
+
+   
+    <script src="gomb.js"></script>
+    <script src="datum.js"></script>
+</body>
+</html>    
