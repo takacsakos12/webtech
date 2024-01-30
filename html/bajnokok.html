@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UFC bajnokok</title>
+    <style>
+        table {
+          width: 100%;
+          border-collapse: collapse;
+          margin-top: 20px;
+        }
+        th, td, tbody {
+          border: 1px solid #00000000;
+          padding: 8px;
+          text-align: left;
+        }
+        th,tbody {
+          background-color: #656497;
+        }
+        
+        img {
+      max-width: 100px; 
+      height: auto; 
+      display: block; 
+      margin: 0 auto;
+      
+    }
+    @keyframes rotateAnimation {
+            from {
+                transform: rotate(0deg);
+            }
+            to {
+                transform: rotate(360deg);
+            }
+        }
+
+        #ufcLogo {
+            max-width: 200px;
+            height: auto;
+            display: block;
+            margin: 0 auto;
+            animation: rotateAnimation 3s infinite;
+        }
+      </style>
+</head>
+<body> 
+  
+    <div class="container">
+        <div class="header">
+            <a href="webtechindex.html" style="text-decoration: none; color: inherit;"><h1>MMA Magyarország</h1></a>
+        </div>
+       
+        <div class="menu">
+            
+          <button id="bajnokok" class="menu-button">Bajnokok</button>
+          <button id="webshop" class="menu-button">Webshop</button>
+          <button id="eventkereso" class="menu-button">Eventkereső</button>
+    </div>     
+       
+        <div class="content">
+          <div id="ufcLogo">
+            <img src="ufc_logo.png" alt="UFC Logo" style="max-width: 200px; height: auto;">
+        </div>
+        
+          <h2>UFC Bajnokok</h2>
+
+        <table id="ufcBajnokokTabla">
+            <thead>
+              <tr id="fejlecSor">
+                <th>Súlycsoport</th>
+                <th>Bajnok</th>
+                <th>Kép</th>
+              </tr>
+            </thead>
+            <tbody>
+            <tr id="flyweightSor">
+                    <td>Légsúly</td>
+                    <td>Alexandre "The Cannibal" Pantoja</td>
+                    <td><img src="PANTOJA_ALEXANDRE.png" alt="Alexandre Pantoja"></td>
+            </tr>
+            
+            <tr id="bantamweightSor">
+                    <td>Harmatsúly</td>
+                    <td>Sean "Suga" O'Malley</td>
+                    <td><img src="OMALLEY_SEAN.png" alt="Sean O'Malley"></td>
+            </tr>
+            
+            <tr id="featherweightSor">
+                <td>Pehelysúly</td>
+                <td>Alexander "The Great" Volkanovski</td>
+                <td><img src="VOLKANOVSKI_ALEXANDER.png" alt="Alexander Volkanovski"></td>
+            </tr>
+            
+            <tr id="lightweightSor">
+                <td>Könnyűsúly</td>
+                <td>Islam Makhachev</td>
+                <td><img src="MAKHACHEV_ISLAM.png" alt="Islam Makhachev"></td>
+            </tr>  
+                  
+            <tr id="welterweightSor">
+                <td>Váltósúly</td>
+                <td>Leon "Rocky" Edwards</td>
+                <td><img src="EDWARDS_LEON.png" alt="Leon Edwards"></td>
+
+            </tr>
+            
+            <tr id="middleweightSor">
+                <td>Middleweight</td>
+                <td>Dricus "Stillknocks" Du Plessis</td>
+                <td><img src="DU_PLESSUS_DRICUS.png" alt="Dricus Du Plessis"></td>
+            </tr>
+
+            <tr id="lightheavyweightSor">
+                <td>Félnehézsúly</td>
+                <td>Alex "Poatan" Pereira</td>
+                <td><img src="PEREIRA_ALEX.png" alt="Alex Pereira"></td>
+            </tr>
+
+            <tr id="heavyweightSor">
+                <td>Nehézsúly</td>
+                <td>Jon "Bones" Jones</td>
+                <td><img src="JONES_JON.png" alt="Jon Jones"></td>
+            </tr>
+          </div>
+            
+            
+            </tbody>
+        </table>
+
+          
+        
+        <script src="gomb.js"></script>
+        <script src="animacio.js"></script>
+</body>
+</html>
